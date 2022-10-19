@@ -460,39 +460,376 @@ const App = () => {
       </div>
       <div className="container-text">
         <div className="apresentation">
-          <h2>Surgimento</h2>
+          <h2>1ª Camada - Ciclo de vida de Projeto</h2>
         </div>
         <ul className="list-apresentationn">
           <li>
             <div className="icons">
               <GrCheckbox />
             </div>
-            <p></p>
+            <p>
+              Open UP divide o ciclo de vida de projetos em quatro fases
+              distintas:{" "}
+              <strong> iniciação, elaboração,construção e transição.</strong>
+            </p>
           </li>
           <li>
             <div className="icons">
               <GrCheckbox />
             </div>
-            <p></p>
+            <p>Iniciação</p>
           </li>
           <li>
-            {" "}
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                  Fase em que se enfatiza o processo de análise de negócios e
+                  análise de requisitos do negócio analisado, dando uma ênfase
+                  menor a arquitetura e implementação;
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
             <div className="icons">
               <GrCheckbox />
             </div>
-            <p> </p>
+            <p>Elaboração </p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                  Fase em que se enfatiza o processo de desenvolvimento da
+                  análise arquitetural da solução proposta;
+                </p>
+              </div>
+            </div>
           </li>
           <li>
             <div className="icons">
               <GrCheckbox />
             </div>
-            <p></p>
+            <p>Construção</p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                  Fase em que se enfatiza o processo de implementação da solução
+                  proposta, bem como, testes e integração;
+                </p>
+              </div>
+            </div>
           </li>
           <li>
             <div className="icons">
               <GrCheckbox />
             </div>
-            <p></p>
+            <p>Transição</p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                  Fase em que se destaca o processo de implantação do release,
+                  com importante foco na realização do teste beta e
+                  reconfiguração necessária do sistema, além de foco no processo
+                  de treinamento do usuário e conversão dos dados legados.
+                </p>
+              </div>
+            </div>
+          </li>
+          <div className="img-camadas">
+            <img src="./img/ciclodevida.jpg" alt="" />
+          </div>
+        </ul>
+      </div>
+      <div className="container-text">
+        <div className="apresentation">
+          <h2>2ª Camada - Ciclo de Iteração </h2>
+        </div>
+        <ul className="list-apresentationn">
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>
+              Os processos iterativos pregam a divisão de suas atividades
+              principais em subatividades, chamadas de iteração.
+            </p>
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>
+              Uma iteração é focada no desenvolvimento de um Build (executável).
+            </p>
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>Tem que ter sido exaustivamente testado.</p>
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>Para o Open UP, as disciplinas tratadas são:</p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>Requisitos;</p>
+              </div>
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>Arquitetura;</p>
+              </div>
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>Implementação;</p>
+              </div>
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>Teste;</p>
+              </div>
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>Gerência de Projetos.</p>
+              </div>
+            </div>
+          </li>
+          <div className="img-camadas">
+            <img src="./img/camadas2.jpg" alt="" />
+          </div>
+        </ul>
+      </div>
+      <div className="container-text">
+        <div className="apresentation">
+          <h2>3ª Camada - Ciclo de Micro Incremento</h2>
+        </div>
+        <ul className="list-apresentationn">
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>Foco no Individual;</p>
+          </li>
+
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>
+              Jornada curtas de trabalho para alcançar os objetivos de uma
+              iteração:
+            </p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                  Passo mensurável de progresso do projeto (horas ou poucos
+                  dias).
+                </p>
+              </div>
+            </div>
+          </li>
+          <div className="img-camadas">
+            <img src="./img/iteracao.jpg" alt="" />
+          </div>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p> Ciclo de vida de Micro Incremento:</p>
+          </li>
+          <div className="img-camadas">
+            <img src="./img/iteracao2.jpg" alt="" />
+          </div>
+        </ul>
+      </div>
+      <div className="container-text">
+        <div className="apresentation">
+          <h2>Disciplinas do Open UP</h2>
+        </div>
+        <ul className="list-apresentationn">
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>
+              No Processo Unificado, as Tarefas são agrupadas logicamente nas
+              diversas disciplinas, que são distribuídas entre as fases e são
+              executadas a cada iteração, em maior ou menor escala.
+            </p>
+          </li>
+
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>Disciplina de Requisitos:</p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                  Nesta disciplina agrupa todas as tarefas de Análise do
+                  negocio:{" "}
+                  <strong>
+                    {" "}
+                    Analise de requisitos e Especificação de requisitos.
+                  </strong>
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>Disciplina de Arquitetura:</p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                principal objetivo apresentar uma arquitetura estável
+para o desenvolvimento do sistema, baseando-se nos
+requisitos especificados.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>Disciplina de Implementação:</p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                Organiza as tarefas que irão transformar a arquitetura
+proposta na implementação do sistema.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>Disciplina de Teste:</p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                tarefas relacionadas a teste, que se preocupam em
+prover feedback sobre a maturidade do sistema,
+projetando, implementando, executando e avaliando
+testes.
+
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>Disciplina de Gerência de Projeto:</p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                Objetivo apresentar técnicas para que o gerente de
+projetos possa liderar, facilitar e oferecer suporte à sua
+equipe, auxiliando-a a lidar com os riscos e obstáculos
+encontrados durante o processo de desenvolvimento
+de software.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <p>Existem duas grandes prioridades para o gerente
+de projetos:</p>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                A arquitetura da solução proposta;
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div className="container-desc">
+              <div className="container-iten">
+                <div className="icons">
+                  <GrCheckbox />
+                </div>
+                <p>
+                A gerência dos riscos.
+                </p>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
