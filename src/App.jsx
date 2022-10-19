@@ -831,6 +831,52 @@ de projetos:</p>
               </div>
             </div>
           </li>
+          <div className="container-text">
+        <div className="apresentation">
+          <h2>Referencias</h2>
+        </div>
+        <ul className="list-apresentationn">
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <div className="ref">
+            <a href="https://pt.wikipedia.org/wiki/OpenUP">Wikipedia</a>
+            </div>
+           
+          </li>
+
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <div className="ref">
+            <a href="http://open2up.blogspot.com/">Open2Up</a>
+            </div>
+           
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <div className="ref">
+            <a href="https://www.cin.ufpe.br/~tg/2006-2/ceac.pdf">UFPE</a>
+            </div>
+            
+          </li>
+          <li>
+            <div className="icons">
+              <GrCheckbox />
+            </div>
+            <div className="ref">
+            <a href="https://www.tiespecialistas.com.br/openup-uma-visao-geral/">Tiespecialistas</a>
+            </div>
+          
+          </li>
+
+      
+        </ul>
+      </div>
         </ul>
       </div>
     </div>
